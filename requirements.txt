@@ -1,0 +1,10 @@
+requests
+boto3
+pandas
+sqlalchemy
+psycopg2-binary
+pymongo
+streamlit
+plotly
+python-dotenv
+pytest
