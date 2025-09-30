@@ -10,26 +10,6 @@ A pipeline that:
 
 ---
 
-## Project Structure
-
-cloud-data-pipeline/
-├─ data/
-│ ├─ clean/ # Cleaned CSVs
-│ └─ weather.db # SQLite database
-├─ src/
-│ ├─ app/ # Streamlit dashboard
-│ │ └─ dashboard.py
-│ ├─ ingest/ # API fetch
-│ │ └─ fetch_api.py
-│ ├─ transform/ # Transform data
-│ │ └─ transform.py
-│ ├─ load/ # Load CSV -> SQLite
-│ │ └─ load_to_db.py
-│ └─ run_pipeline.py # Run full ETL pipeline
-├─ requirements.txt
-└─ README.md
-
----
 
 ## Quickstart
 
